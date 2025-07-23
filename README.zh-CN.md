@@ -28,7 +28,7 @@ export MODELSCOPE_API_KEY="your-api-key-here"
 npm install -g @anthropic-ai/claude-code
 
 # 2. 安装 claude-code-router
-npm install -g @musistudio/claude-code-router
+npm install -g @leason/claude-code-router
 ```
 
 然后选择以下任意一种方式安装本配置包：
@@ -101,13 +101,13 @@ ccr code
 
 ### 支持的模型
 
-- `qwen3-235b-a22b` - 默认模型，支持长上下文和流式输出
+- `Qwen/Qwen3-Coder-480B-A35B-Instruct` - 默认模型，支持长上下文和流式输出
 
 ## 故障排除
 
 ### 常见问题
 
-1. **API Key 无效**：确保您的 ModelScope API Key 有效并且有足够的配额
+1. **API Key 无效**：确保您的 ModelScope API Key 有效，每天限额 2 千次
 2. **命令未找到**：确保所有包都使用 `-g` 标志全局安装
 3. **权限问题**：在某些系统上全局安装可能需要 `sudo` 权限
 

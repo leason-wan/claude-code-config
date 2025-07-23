@@ -30,7 +30,7 @@ First, install the required dependencies:
 npm install -g @anthropic-ai/claude-code
 
 # 2. Install claude-code-router
-npm install -g @musistudio/claude-code-router
+npm install -g @leason/claude-code-router
 ```
 
 Then choose one of the following installation methods for the configuration package:
@@ -103,7 +103,7 @@ If you didn't set the environment variable before running `ccr-modelscope`, you 
 
 ### Supported Models
 
-- `qwen3-235b-a22b` - Default model with long context and streaming support
+- `Qwen/Qwen3-Coder-480B-A35B-Instruct` - Default model with long context and streaming support
 
 ## Troubleshooting
 
