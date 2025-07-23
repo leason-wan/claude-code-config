@@ -8,7 +8,7 @@
     "url": "git+https://github.com/leason-wan/claude-code-config"
   },
   "name": "@leason/claude-code-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Default configuration for claude-code-router with ModelScope support",
   "main": "index.js",
   "bin": {
