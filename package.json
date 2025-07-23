@@ -1,0 +1,62 @@
+{
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leason-wan/claude-code-config"
+  },
+  "name": "@leason/claude-code-config",
+  "version": "0.1.0",
+  "description": "Default configuration for claude-code-router with ModelScope support",
+  "main": "index.js",
+  "bin": {
+    "ccr-modelscope": "bin/claude-code-router-config.js"
+  },
+  "scripts": {
+    "lint": "echo lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "ci": "npm run test"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "README.zh-CN.md",
+    "package.json"
+  ],
+  "keywords": [
+    "claude",
+    "code-router",
+    "modelscope",
+    "configuration"
+  ],
+  "author": "Leason",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "bin/**/*.js",
+      "!**/node_modules/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  }
+}
