@@ -30,7 +30,7 @@ First, install the required dependencies:
 npm install -g @anthropic-ai/claude-code
 
 # 2. Install claude-code-router
-npm install -g @leason/claude-code-router
+npm install -g @musistudio/claude-code-router
 ```
 
 Then choose one of the following installation methods for the configuration package:
